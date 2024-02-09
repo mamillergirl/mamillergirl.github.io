@@ -11,7 +11,7 @@ function Footer() {
         <li><Link to='/skills'>Skills</Link>    </li>
         <li><Link to='/projects'>Projects</Link ></li>
         </ul>
-        <a href="https://github.com/mamillergirl/mamiller_portfolio">View this project</a>
+        <a href="https://github.com/mamillergirl/mamillergirl.github.io">View this project</a>
      </div>
    </footer>
   );
