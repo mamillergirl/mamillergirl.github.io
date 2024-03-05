@@ -2,7 +2,7 @@ import "../App.css";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import marisa_image from "../marisa_miller.png";
-import resume from "../Marisa-miller";
+import resume from "../marisa-miller-resume-next.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
