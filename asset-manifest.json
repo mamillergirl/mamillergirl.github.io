@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.927cf8c2.css",
-    "main.js": "/static/js/main.6d50adff.js",
+    "main.js": "/static/js/main.427bce93.js",
     "static/js/787.071eb048.chunk.js": "/static/js/787.071eb048.chunk.js",
     "static/media/supersaver.png": "/static/media/supersaver.930df569c050ad38e32c.png",
     "static/media/cookboost.png": "/static/media/cookboost.1b68d7a51ead55b1a1a3.png",
@@ -9,7 +9,7 @@
     "static/media/marisa_miller.png": "/static/media/marisa_miller.65d7c86d49ad14b12f47.png",
     "static/media/iride.png": "/static/media/iride.a0e610ccd47f85260d36.png",
     "static/media/flick-favs.png": "/static/media/flick-favs.b2341208b94e2453d496.png",
-    "static/media/marisa_miller_resume_updated.pdf": "/static/media/marisa_miller_resume_updated.f0dc14684a61853aedd2.pdf",
+    "static/media/marisa-miller-resume-next.pdf": "/static/media/marisa-miller-resume-next.7f2c1ca548eedc198f03.pdf",
     "static/media/webscraper.png": "/static/media/webscraper.40cbc0da8fe2ec137187.png",
     "static/media/react-native.svg": "/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/node.svg": "/static/media/node.9b464a9aee62c52faeebf257f69cad74.svg",
@@ -28,11 +28,11 @@
     "static/media/figma.svg": "/static/media/figma.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "static/media/angular.svg": "/static/media/angular.28ae4f3c6c193d04113e4767a73b86bc.svg",
     "main.927cf8c2.css.map": "/static/css/main.927cf8c2.css.map",
-    "main.6d50adff.js.map": "/static/js/main.6d50adff.js.map",
+    "main.427bce93.js.map": "/static/js/main.427bce93.js.map",
     "787.071eb048.chunk.js.map": "/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.927cf8c2.css",
-    "static/js/main.6d50adff.js"
+    "static/js/main.427bce93.js"
   ]
 }
