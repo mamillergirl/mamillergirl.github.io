@@ -1,28 +1,22 @@
 import React, { useState } from 'react';
 
-const Skill = ({ name, imageUrl, description, experience }) => {
-  const [showDescription, setShowDescription] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowDescription(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowDescription(false);
-  };
+const Skill = ({ source, alt, description }) => {
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className='skill' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <img src={imageUrl} alt={name} />
-      <h4>{name}</h4>
-      {showDescription && (
-        <div className='skillDescription'>
-          <p>{description}</p>
-          <p><strong>Experience:</strong> {experience}</p>
+    <div 
+      className="relative inline-block"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {isHovered && (
+        <div className="absolute bottom-full w-[200px] font-[16px] left-1/2 transform -translate-x-1/2 bg-white text-black p-2 z-10 rounded-md">
+          {description}
         </div>
       )}
+      <img className="p-2 w-[60px]" src={source} alt={alt} />
     </div>
   );
-};
+}
 
 export default Skill;

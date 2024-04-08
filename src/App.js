@@ -1,19 +1,22 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home } from './components/home';
-import { About } from './components/about';
-import { Projects } from './components/projects';
-import { Skills } from './components/skills';
+import React from 'react';
+import Header from './components/header.jsx';
+import Home from './components/home.jsx';
+import Skills from './components/skills.jsx';
+import Projects from './components/projects.jsx';
+import Resume from './components/resume.jsx';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
-    </Router>
+    <main className="">
+      <Header/>
+      <Home/>
+      <Skills/>
+      <Projects/>
+      <Resume/>
+      <Footer/>
+
+    </main>
   );
 }
 
