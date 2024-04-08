@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div id="skills" className="mt-20 flex flex-col items-center justify-center w-full">
       <h2 className="mt-4 text-center text-white text-[24px] font-semibold">Experience with</h2>
-      <div className="mt-4 flex justify-evenly mb-4 flex-wrap w-[90%] sm:w-[60%] ">
+      <div className="mt-4 flex justify-evenly mb-4 flex-wrap w-[70%] sm:w-[60%] ">
         <Skill source={typescript} alt="typescript" description="Applied TypeScript proficiently during internship for robust, typed JavaScript development." />
         <Skill source={javascript} alt="javascript" description="Acquired foundational JavaScript knowledge from a course, solidified through extensive practical application." />
         <Skill source={csharp} alt="c#" description="Acquired C# skills in school for game development, later utilized professionally in API development." />
