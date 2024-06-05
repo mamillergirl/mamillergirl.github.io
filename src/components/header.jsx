@@ -34,11 +34,11 @@ export default function Header() {
     <header id="header" className="fixed z-10 top-0 flex justify-between align-middle bg-headerColor w-full h-16">
       <h1 className="sm:w-1/3 sm:ml-24 text-white p-4">Marisa Miller</h1>
       <div className="md:hidden relative" ref={menuRef}>
-        {/* Hamburger icon */}
+
         <button onClick={toggleMenu} className="mr-4 mt-4 text-white text-3xl">
         <FontAwesomeIcon icon={faBars} />
         </button>
-        {/* Mobile menu */}
+
         {menuOpen && (
           
           <div className="fixed z-20 top-0 right-0 w-2/3 h-full bg-headerColor flex flex-col justify-center items-end">
@@ -76,7 +76,7 @@ export default function Header() {
         )}
       </div>
   
-      <ul className="hidden md:flex mt-1 mr-40 w-1/3 flex text-white p-4 justify-evenly">
+      <ul className="hidden md:flex mt-1 mr-40 w-1/3 text-white p-4 justify-evenly">
         <li>
           <a href="#home" className={selectedItem === 'home' ? 'text-purple-600' : 'hover:text-purple-600'} onClick={() => handleItemClick('home')}>
             Home
