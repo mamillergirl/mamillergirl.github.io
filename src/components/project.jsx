@@ -10,7 +10,7 @@ const Project = ({ source, alt, title, type, description, repository, link }) =>
       className="sm:grid sm:grid-cols-2 sm:grid-rows-1 flex flex-col sm:w-[75%]"
       >
         {source !== "" &&
-        <div className='relative mb-10 group'>
+        <div className='relative mb-10 group pl-4'>
           <img className="rounded-2xl w-full h-auto object-cover" src={source} alt={alt}/>
          <div className="absolute inset-0 rounded-2xl z-10 hidden group-hover:flex lg:hidden justify-center bg-black bg-opacity-80 ">
           
@@ -29,11 +29,8 @@ const Project = ({ source, alt, title, type, description, repository, link }) =>
               <FontAwesomeIcon icon={faGithub} />
               <p className='pl-2 text-[16px]'>View Repository</p>
             </a>
-  
-          
-          </div> 
 
-          
+          </div> 
         </div>
         }
         <div className='flex flex-col justify-between p-4'>

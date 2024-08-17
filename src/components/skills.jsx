@@ -23,11 +23,11 @@ const Skills = () => {
       <h2 className="mt-4 text-center text-white text-[24px] font-semibold">Experience with</h2>
       <div className="mt-4 flex justify-evenly mb-4 flex-wrap w-[70%] sm:w-[60%] ">
         <Skill source={typescript} alt="typescript" description="Applied TypeScript proficiently during internship for robust, typed JavaScript development." />
-        <Skill source={javascript} alt="javascript" description="Acquired foundational JavaScript knowledge from a course, solidified through extensive practical application." />
+        <Skill source={javascript} alt="javascript" description="Acquired foundational JavaScript knowledge from a frontend courses, solidified through extensive practical personal and professional application.s" />
         <Skill source={csharp} alt="c#" description="Acquired C# skills in school for game development, later utilized professionally in API development." />
         <Skill source={git} alt="git" description="Employed Git for version control across many projects, integrating with GitHub and Azure for collaboration and deployment." />
         <Skill source={python} alt="python" description="Started with Python as my first language, initially for simple projects, later leveraging Pandas for data science tasks." />
-        <Skill source={sql} alt="sql" description="Acquired SQL proficiency in database design courses, experienced in constructing relational databases using MySQL and PostreSQL." />
+        <Skill source={sql} alt="sql" description="Acquired SQL proficiency in database design courses, experienced in constructing relational databases using MySQL, Oracle PL/SQL and PostreSQL." />
         <Skill source={nextjs} alt="nextjs" description=" Utilized Next.js alongside Prisma to develop full-stack projects, seamlessly integrating frontend and API functionalities." />
         <Skill source={react} alt="react" description="Self-taught React enthusiast; honed expertise via personal projects, transitioning to professional utilization." />
         <Skill source={node} alt="node" description="Learned Node.js in backend development and web services classes, employing Express; applied for personal REST APIs." />

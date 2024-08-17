@@ -8,10 +8,10 @@ const Experience = ({title, time, degree, description }) => {
             
       <div className="flex flex-col sm:flex-row justify-between lg:py-5">
         <div>
-        <h1 className="text-white text-[20px] font-bol ">{title}</h1>
+        <h1 className="text-white text-[20px] font-bol max-w-[90%] ">{title}</h1>
         <h3 className="text-white text-[18px]">{degree}</h3>
         </div>
-        <p className="text-white opacity-70 text-[16px] sm:mr-40">{time}</p>
+        <p className="text-white opacity-70 text-[16px] sm:mr-50">{time}</p>
       </div>
       
 
