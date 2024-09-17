@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Project from './project';
-import supersaver from '../images/projects/supersaver.png';
+import superSaver from '../images/projects/supersaver.png';
 import foodDiaryApp from '../images/projects/food-diary-app.png';
 import iride from '../images/projects/iride.png';
 import plums from '../images/projects/plums.png';
@@ -23,7 +23,7 @@ const Projects = () => {
       <h2 className="mt-4 text-center text-accentColor text-[35px] font-extrabold">Projects</h2>
       <div className="mt-4 flex flex-col items-center">
         <Project source={foodDiaryApp} alt="Food Diary App" type="Mobile App" title="Food Diary App" description="I developed the Food Diary App as my senior project. It's a cross-platform tool built with React Native for tracking food intake and symptoms. Users can log meals, symptoms, and receive insights for better food choices. It securely stores data using Firebase and integrates with the Edamam API for food information." link="" repository="https://github.com/mamillergirl/food-diary-app" />
-        <Project source={supersaver} alt="Supersaver" type="Web App" title="Rexburg Supersaver" description="Led a React-based hackathon project, winning 3rd place, to facilitate access to local grocery deals. Managed frontend development, project planning, and design using Figma. Utilized web scraping to aggregate exclusive discounts, simplifying the shopping experience." repository='https://github.com/mamillergirl/RexburgSuperSaver' link='https://mamillergirl.github.io/rexburg-super-saver-ui-demo/' />
+        <Project source={superSaver} alt="Supersaver" type="Web App" title="Rexburg Supersaver" description="Led a React-based Hackathon project, winning 3rd place, to facilitate access to local grocery deals. Managed frontend development, project planning, and design using Figma. Utilized web scraping to aggregate exclusive discounts, simplifying the shopping experience." repository='https://github.com/mamillergirl/RexburgSuperSaver' link='https://mamillergirl.github.io/rexburg-super-saver-ui-demo/' />
         <Project source={plums} alt="Plums" type="Full-Stack Web App" title="PLUMS" description="Developed with a partner for a full-stack class, our Next.js, Prisma, and PostgreSQL app is a personal learning management system. Users can upload topics, attachments, and notes, streamlining their learning experience." repository="https://github.com/lingarner/plums" link="https://plums-orpin.vercel.app/" />
         {showAllProjects &&
           <>
@@ -36,7 +36,7 @@ const Projects = () => {
           </>
         }
         <button onClick={toggleShowAllProjects} className="text-white bg-accentColor font-bold py-2 px-4 rounded">
-          {showAllProjects ? 'Show Less' : 'Show All Projects'}
+          {showAllProjects ? 'Collapse Projects -' : 'Expand Projects +'}
         </button>
       </div>
     </div>
