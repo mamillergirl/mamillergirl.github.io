@@ -10,7 +10,7 @@ const Skill = ({ source, alt, description }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       {isHovered && (
-        <div className="absolute bottom-full w-[200px] font-[16px] left-1/2 transform -translate-x-1/2 bg-white text-black p-2 z-10 rounded-md">
+        <div className="absolute bottom-full w-[200px] font-[18px] left-1/2 transform -translate-x-1/2 bg-white text-black p-2 z-10 rounded-md">
           {description}
         </div>
       )}

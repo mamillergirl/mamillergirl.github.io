@@ -17,6 +17,7 @@ export default function Header() {
     setMenuOpen(!menuOpen);
   };
 
+
   useEffect(() => {
     function handleClickOutside(event) {
       if (menuRef.current && !menuRef.current.contains(event.target)) {

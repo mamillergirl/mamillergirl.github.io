@@ -11,11 +11,11 @@ const Experience = ({title, time, degree, description }) => {
         <h1 className="text-white text-[20px] font-bol max-w-[90%] ">{title}</h1>
         <h3 className="text-white text-[18px]">{degree}</h3>
         </div>
-        <p className="text-white opacity-70 text-[16px] sm:mr-50">{time}</p>
+        <p className="text-white opacity-70 text-[18px] sm:mr-50">{time}</p>
       </div>
       
 
-      <p className="text-white opacity-70 text-[16px] w-[95%]">{description}</p>
+      <p className="text-white opacity-70 text-[18px] w-[95%]">{description}</p>
 
     </div>
   );

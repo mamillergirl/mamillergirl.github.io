@@ -1,22 +1,31 @@
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-  * {
-    font-family: 'Poppins', sans-serif;
-  }
+* {
+  font-family: "Poppins", sans-serif;
+}
 
+header h1 {
+  font-family: "Yesteryear", cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
 
-  header h1 {
-    font-family: 'Yesteryear', cursive;
-    font-weight: 600;
-    font-size: 30px;
-  }
+body {
+  background-color: #161513;
+}
 
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    background-color: #161513;
-  }
+* {
+  box-sizing: border-box;
+}

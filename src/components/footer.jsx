@@ -14,9 +14,9 @@ export default function Footer() {
       <div className='w-[75%] sm: w-[100%] margin-0'>
       <h1 className="text-center mt-5  text-white text-[24px] text-extrabold p-4">Contact</h1>
       <div className='sm:ml-[25%]'>
-      <p className="sm:w-[70%] text-white text-[16px] p-4">Recent college graduate with a passion for Full Stack Software Engineering. Eager to apply newly acquired skills in designing and implementing dynamic web solutions. Proficient in both front-end and back-end technologies, ready to contribute to innovative projects and continue learning and growing in the field.</p>
+      <p className="sm:w-[70%] text-white text-[18px] p-4">Experienced Full Stack Software Engineer. Proficient in both front-end and back-end technologies, ready to contribute to innovative projects and continue learning and growing in the field.</p>
       <div className="mt-5  flex text-white p-4 ">
-      <a className="text-white text-[16px] mb-2" href="mailto:mamillergirl@gmail.com">  <FontAwesomeIcon icon={faEnvelope} /> mamillergirl@gmail.com</a>
+      <a className="text-white text-[18px] mb-2" href="mailto:mamillergirl@gmail.com">  <FontAwesomeIcon icon={faEnvelope} /> mamillergirl@gmail.com</a>
 
       </div>
       <div className="ml-3 flex mb-4 ">
